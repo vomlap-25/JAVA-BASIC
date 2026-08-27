@@ -1,14 +1,7 @@
-import java.util.Scanner;
-
 public class searchandreplace {
 
 public static void main(String[] args) {
-
-        @SuppressWarnings("resource")
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter a string: ");
-        String s = sc.nextLine();
+        String s = "hello java";
 
         System.out.println("First 'a': " + s.indexOf('a'));
         System.out.println("Last 'a': " + s.lastIndexOf('a'));
