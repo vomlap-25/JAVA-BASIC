@@ -1,11 +1,8 @@
-import java.util.Scanner;
 public class stringcomparision {
      public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-
-        String s1 = sc.nextLine();
-        String s2 = sc.nextLine();
+        String s1 = "hello world";
+        String s2 = "hello java";
 
         System.out.println("Equal: " + s1.equals(s2));
         System.out.println("Ignore case: " + s1.equalsIgnoreCase(s2));
